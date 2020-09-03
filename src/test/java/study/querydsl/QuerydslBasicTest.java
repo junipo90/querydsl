@@ -92,7 +92,7 @@ public class QuerydslBasicTest {
         assertThat(findMember.getUsername()).isEqualTo("member1");
 
     }
-
+    //test
     @Test
     public void search() {
         Member findMember = jpaQueryFactory
